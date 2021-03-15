@@ -6,6 +6,11 @@ fmt: true
 
 spread: true
 
+compression:
+  compress: true
+  method: "BestCompression"
+  keep: false
+
 custom:
   - files:
       - "./swagger-ui/dist/"
